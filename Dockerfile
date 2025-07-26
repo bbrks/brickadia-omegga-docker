@@ -1,7 +1,7 @@
 FROM gameservermanagers/steamcmd:latest
 
 RUN apt-get update \
-  && apt-get install -y --no-install-recommends nodejs npm git \
+  && apt-get install -y --no-install-recommends git build-essential nodejs npm \
   && apt-get -y autoremove \
   && apt-get -y clean \
   && rm -rf /var/lib/apt/lists/* \
