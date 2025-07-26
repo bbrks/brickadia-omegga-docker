@@ -8,6 +8,7 @@ RUN apt-get update \
   && rm -rf /tmp/* \
   && rm -rf /var/tmp/*
 
+ARG CACHEBUST=1
 RUN npm i -g omegga
 
 WORKDIR /server
