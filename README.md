@@ -1,4 +1,4 @@
-# brickadia-omegga-docker
+# brickadia-omegga-docker ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/bbrks/brickadia-omegga-docker/docker.yml) [![Docker Pulls](https://img.shields.io/docker/pulls/bbrks/brickadia-omegga)](https://hub.docker.com/r/bbrks/brickadia-omegga) [![Docker Image Size](https://img.shields.io/docker/image-size/bbrks/brickadia-omegga)](https://hub.docker.com/r/bbrks/brickadia-omegga)
 
 A Dockerfile and automated image builds for the [Omegga Brickadia server wrapper](https://github.com/brickadia-community/omegga)
 
